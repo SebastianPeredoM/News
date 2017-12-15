@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginStart="16dp"
+    android:layout_marginEnd="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/txtTitleDetail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="24sp"
+            android:transitionName="transitionTitle"
+            tools:text="Título"/>
+        <TextView
+            android:id="@+id/txtDescDetail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:transitionName="transitionDesc"
+            tools:text="Descripción"/>
+        <TextView
+            android:id="@+id/txtNroDetail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:transitionName="transitionNro"
+            android:layout_gravity="right"
+            android:textColor="@color/colorAccent"
+            tools:text="0"/>
+        <TextView
+            android:id="@+id/txtLongDescDetail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="10sp"
+            android:layout_marginTop="10dp"
+            android:text="@string/lorem_ipsum_noticias"/>
+    </LinearLayout>
+</android.support.v7.widget.CardView>
